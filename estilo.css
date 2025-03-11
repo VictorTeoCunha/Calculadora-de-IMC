@@ -1,0 +1,50 @@
+/*Limpando a formatação da página para não haver convergências em qualquer dispositivo*/
+* {
+    /*Quebra de espaçamento*/
+    margin: 0;
+    padding: 0;
+    /*Estilização geral*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    text-decoration:underline;
+    text-align: center;
+    margin: 30px auto 30px auto;
+}
+.texto1 {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin: 30px auto 30px auto;
+}
+div {
+    margin-left: 450px;
+    width: 300px;
+    height: 200px;
+    padding-top: 30px;
+    text-align: center;
+    border: solid rgb(152, 151, 151);
+    border-radius: 1em;
+}
+
+div input {
+    width: 250px;
+    border-radius: 1em;
+}
+
+div label {
+   
+}
+
+div button {
+    width: 100px;
+    height: 25px;
+    border-radius: 1em;
+}
+
+div button:hover {
+    background-color: black;
+    color: aliceblue;
+}
